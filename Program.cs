@@ -55,7 +55,7 @@ public class Program
             new OrderLine(products[0], 10),
             new OrderLine(products[1], 5),
             new OrderLine(products[2], 6),
-            new OrderLine(products[1], 0)
+            
         };
 
         IDiscountPolicy discountPolicy = new SimpleDiscountPolicy();
